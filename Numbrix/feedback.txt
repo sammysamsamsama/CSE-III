@@ -1,0 +1,6 @@
+I thought the instructions were very clear. 
+There were probably one or two instructions I can see people struggling with because they don't explain themselves.
+For example: Finally, if zero is true, then set grid[r][c] back to zero.
+It doesn't explicitly state that this is because if the position previously contained zero, it would refill zero so
+	it can continue checking for solutions. Since it is recursive, refilling with zeros does not interfere with
+	the solution tostring. This makes sense to me, but maybe not to others.

@@ -1,0 +1,19 @@
+ html = bs(br.page_source, 'html.parser')
+            link = html.findAll('div', {'class':'FSP1Dd'})
+            string = link[0].text
+            for subs in subtitles:
+                try:
+                    link = html.findAll('div', {'class':subs})
+                    string = string + " : " + link[0].text
+                except Exception as e:
+                    print("")
+            link = html.findAll('div', {'class':'mraOPb'})
+            string = string + "\n\n" + link[0].text
+            TN.sendMessage(x.from_, string)
+
+len(str(html).split('''</span><span style="font:smaller 'Doulos SIL','Gentum','TITUS Cyberbit Basic','Junicode','Aborigonal Serif','Arial Unicode MS','Lucida Sans Unicode','Chrysanthi Unicode';padding-left:15px">/ˈ(h)'''))
+
+sender
+    # fw.write(x.from_ + " \t:\t " + x.body +'\t' + str(x.date_sent) + '\r\n')
+##    fw = open("id.in", 'w')
+##    fw.write(str(x['id']))

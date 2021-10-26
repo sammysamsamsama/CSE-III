@@ -1,0 +1,3 @@
+C:/Users/sammy/School Related/CSC III/BasicIOTerminal/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+C:/Users/sammy/School Related/CSC III/BasicIOTerminal/cmake-build-debug/CMakeFiles/BasicIOTerminal.dir
+C:/Users/sammy/School Related/CSC III/BasicIOTerminal/cmake-build-debug/CMakeFiles/edit_cache.dir
